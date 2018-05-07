@@ -1,9 +1,25 @@
-.list-group-item {
-  background-color: #fff !important;
+* {
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  position: relative;
 }
 
-/* body {
-  background-size: cover;
+#root {
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 100px; /* height of your footer */
+}
+
+/* background-size: cover;
   background-position: center;
   background: linear-gradient(
       135deg,
@@ -12,12 +28,24 @@
       rgba(255, 255, 255, 1) 100%
     ),
     url("./img/white-paper.jpg") no-repeat center;
-} */
+}  */
 
 .btn {
   padding: 10px 20px;
   border-radius: 50px 20px;
 }
+
+.list-group-item {
+  background-color: #fff !important;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
 
 .navbar {
   webkit-box-shadow: -15px 15px 11px -14px rgba(0, 0, 0, 0.18);
