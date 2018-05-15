@@ -46,12 +46,11 @@ body {
   z-index: 9999;
 }
 
-
-.navbar {
+/* .navbar {
   webkit-box-shadow: -15px 15px 11px -14px rgba(0, 0, 0, 0.18);
   -moz-box-shadow: -15px 15px 11px -14px rgba(0, 0, 0, 0.18);
   box-shadow: -15px 15px 11px -14px rgba(0, 0, 0, 0.18);
-}
+} */
 
 .postcard {
   margin-top: 75px;
@@ -115,9 +114,9 @@ img {
   width: 100%;
 }
 
-.nav-link {
+/* .nav-link {
   margin-top: 5px;
-}
+} */
 /* .navbar {
   padding: 5px;
 } */
@@ -158,14 +157,14 @@ img {
 .rowdown {
   margin-top: 55px;
 }
-.nav-item {
+/* .nav-item {
   padding-left: 20px;
   font-size: 18px;
 }
 
 .nav-item i {
   padding-right: 5px;
-}
+} */
 
 .center {
   margin: auto;
@@ -173,10 +172,10 @@ img {
   padding: 10px;
 }
 
-.navbar-brand {
-  /* font-family: Fairies Are Real; */
+/* .navbar-brand {
+  
   font-size: 30px;
-}
+} */
 
 .landing {
   position: relative;

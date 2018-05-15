@@ -109,7 +109,7 @@ class Navbar extends Component {
     );
 
     return (
-      <nav className="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
         <Link className="navbar-brand" to="/">
           Doggiverse
         </Link>
@@ -117,14 +117,19 @@ class Navbar extends Component {
           className="navbar-toggler"
           type="button"
           data-toggle="collapse"
-          data-target="#mobile-nav"
+          data-target="#mobilenav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon" />
         </button>
 
-        <div className="collapse navbar-collapse" id="mobile-nav" />
-        <ul className="navbar-nav mr-auto" />
-        {isAuthenticated ? authLinks : guestLinks}
+        <div className="collapse navbar-collapse" id="mobilenav">
+          <ul className="navbar-nav">
+            {isAuthenticated ? authLinks : guestLinks}
+          </ul>
+        </div>
       </nav>
     );
   }
