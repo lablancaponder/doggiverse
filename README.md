@@ -24,6 +24,8 @@ email. This image is used for the profile only.
 ![Image of Doggiverse](Capture1.PNG)
 ![Image of Doggiverse](Capture2.PNG)
 ![Image of Doggiverse](Capture3.PNG)
+![Image of Doggiverse](Capture5.PNG)
+![Image of Doggiverse](Capture4.PNG)
 
 
 
