@@ -117,9 +117,10 @@ img {
 .nav-link {
   margin-top: 5px;
 }
-/* .navbar {
-  padding: 5px;
-} */
+
+.navbar {
+  margin-bottom: 25px;
+}
 
 .profileimg {
   margin-top: -100px;
