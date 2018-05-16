@@ -240,10 +240,10 @@ img {
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (min-width: 520px) {
   .itempic {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
   }
 
   .iteminfo {
@@ -261,7 +261,7 @@ img {
   }
 } */
 
-@media screen and (max-width: 459px) {
+@media screen and (max-width: 519px) {
   .itempic {
     display: none;
   }
