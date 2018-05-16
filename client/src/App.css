@@ -242,24 +242,24 @@ img {
 
 @media screen and (max-width: 520px) {
   .itempic {
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
   }
 
   .iteminfo {
-    margin-left: 180px;
+    margin-left: 150px;
   }
 }
-@media screen and (max-width: 460px) {
+/* @media screen and (max-width: 460px) {
   .itempic {
-    height: 125px;
-    width: 125px;
+    height: 75px;
+    width: 75px;
   }
 
   .iteminfo {
-    margin-left: 175px;
+    margin-left: 150px;
   }
-}
+} */
 
 @media screen and (max-width: 459px) {
   .itempic {
