@@ -242,12 +242,12 @@ img {
 
 @media screen and (max-width: 520px) {
   .itempic {
-    height: 100px;
-    width: 100px;
+    height: 125px;
+    width: 125px;
   }
 
   .iteminfo {
-    margin-left: 150px;
+    margin-left: 170px;
   }
 }
 @media screen and (max-width: 460px) {
@@ -257,7 +257,7 @@ img {
   }
 
   .iteminfo {
-    margin-left: 150px;
+    margin-left: 160px;
   }
 }
 
