@@ -233,7 +233,10 @@ img {
   .itempic {
     height: 50px;
     width: 50px;
-    margin-right: 50px;
+  }
+
+  .itempic {
+    margin-left: 50%;
   }
 }
 
