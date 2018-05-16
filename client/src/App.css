@@ -240,7 +240,28 @@ img {
   }
 }
 
+@media screen and (max-width: 520px) {
+  .itempic {
+    height: 100px;
+    width: 100px;
+  }
+
+  .iteminfo {
+    margin-left: 150px;
+  }
+}
 @media screen and (max-width: 480px) {
+  .itempic {
+    height: 50px;
+    width: 50px;
+  }
+
+  .iteminfo {
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 520px) {
   .itempic {
     display: none;
   }
