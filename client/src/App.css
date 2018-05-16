@@ -242,22 +242,22 @@ img {
 
 @media screen and (max-width: 520px) {
   .itempic {
+    height: 150px;
+    width: 150px;
+  }
+
+  .iteminfo {
+    margin-left: 180px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .itempic {
     height: 125px;
     width: 125px;
   }
 
   .iteminfo {
-    margin-left: 170px;
-  }
-}
-@media screen and (max-width: 460px) {
-  .itempic {
-    height: 100px;
-    width: 100px;
-  }
-
-  .iteminfo {
-    margin-left: 170px;
+    margin-left: 175px;
   }
 }
 
