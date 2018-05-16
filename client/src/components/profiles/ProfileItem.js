@@ -14,7 +14,7 @@ class ProfileItem extends Component {
             <img
               src={profile.user.avatar}
               alt=""
-              className="rounded-circle outline"
+              className="rounded-circle outline itempic"
             />
           </div>
           <div className="col-lg-6 col-md-4 col-8">
