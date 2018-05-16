@@ -17,7 +17,7 @@ class ProfileItem extends Component {
               className="rounded-circle outline"
             />
           </div>
-          <div className="col-lg-6 col-md-4 col-6">
+          <div className="col-lg-6 col-md-4 col-8">
             <h3>{profile.handle}</h3>
             <p>
               Dog owner of {profile.numberofdogs}{" "}
@@ -34,7 +34,7 @@ class ProfileItem extends Component {
             </Link>
           </div>
 
-          <div className="col-md-6 d-none d-md-block">
+          <div className="col-md-4 d-none d-md-block">
             <h4>About Me</h4>
 
             <p className="lead">
