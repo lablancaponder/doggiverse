@@ -229,7 +229,7 @@ img {
   padding: 0;
 } */
 
-@media screen and (max-width: 760px) {
+/* @media screen and (max-width: 760px) {
   .itempic {
     height: 150px;
     width: 150px;
@@ -249,24 +249,4 @@ img {
   .iteminfo {
     margin-left: 150px;
   }
-}
-/* @media screen and (max-width: 460px) {
-  .itempic {
-    height: 75px;
-    width: 75px;
-  }
-
-  .iteminfo {
-    margin-left: 150px;
-  }
 } */
-
-@media screen and (max-width: 520px) {
-  .itempic {
-    display: none;
-  }
-
-  .iteminfo {
-    margin: auto;
-  }
-}
