@@ -231,8 +231,9 @@ img {
 
 @media screen and (max-width: 760px) {
   .itempic {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
   }
 }
 
